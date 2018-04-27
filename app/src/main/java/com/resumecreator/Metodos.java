@@ -60,9 +60,11 @@ public class Metodos {
         CustomDashedLineSeparator separator = new CustomDashedLineSeparator();
         separator.setDash(10);
         separator.setGap(7);
+
         separator.setLineWidth(3);
         Chunk linebreak = new Chunk(separator);
         document.add(linebreak);
+
 
 
 
