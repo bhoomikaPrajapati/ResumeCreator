@@ -7,7 +7,7 @@ package com.resumecreator;
 public class UserData {
 
     /**
-     * Personal Detail
+     * Personal info
      * */
     private String firstName = "";
     private String lastName = "";
@@ -18,10 +18,10 @@ public class UserData {
     private String designation = "";
     private String phoneNumber = "";
     private String emailId = "";
-    private String objective = "";
+
 
     /**
-     * Work Experiences
+     * Work Experience,internship
      * */
     private String work_exp_title="";
     private String work_exp_designation = "";
@@ -33,24 +33,71 @@ public class UserData {
 
 
     /**
-     * MASTER
+     * Education
      * */
 
- /*   private String master_degree_marks="";
-    private String hsc_school_name="";
+    private String master_degree_marks="";
+   // private String hsc_school_name="";
     private String hsc_passing_time="";
 
 
 
-    *//**
-     * HSC
-     * *//*
+ /**
+  * Project Detail
+  * */
 
-    private String hsc_marks="";
-    private String hsc_school_name="";
-    private String hsc_passing_time="";
-*/
+    /**
+     * Technical Skills
+     * */
 
+    /**
+     * Interests,Strength,& Hobby
+     * */
+
+    /**
+     * Industrial Exposure
+     * */
+
+
+
+    /**
+     * Achievements & Awards
+     * */
+
+
+    /**
+     * Activities
+     * */
+
+    /**
+     * Reference
+     * */
+
+    private String refetrnce_name;
+    private String refetrnce_designation;
+    private String refetrnce_organation;
+    private String refetrnce_email;
+    private String refetrnce_phone;
+
+
+    /**
+     * Objective,Declaration,Date
+     * */
+
+
+    private String objective;
+    private String objective_date;
+    private String objective_place;
+    private String objective_declaration;
+
+
+
+    /**
+     * Photo & Signature
+     * */
+
+    private String photo;
+    private String signature;  //also we add signature using canvas
 
     /**
      * HSC
