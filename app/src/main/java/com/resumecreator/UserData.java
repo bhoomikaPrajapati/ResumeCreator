@@ -8,7 +8,7 @@ public class UserData {
 
     /**
      * Personal info
-     * */
+     */
     private String firstName = "";
     private String lastName = "";
     private String addressline1 = "";
@@ -19,59 +19,67 @@ public class UserData {
     private String phoneNumber = "";
     private String emailId = "";
 
+    /**
+     * Education
+     */
+
+    private String master_degree_marks = "";
+    // private String hsc_school_name="";
+    private String hsc_passing_time = "";
+
 
     /**
      * Work Experience,internship
-     * */
-    private String work_exp_title="";
-    private String work_exp_designation = "";
-    private String work_exp_company_name = "";
-    private String work_exp_from_time = "";
-    private String work_exp_to_time = "";
-    private String work_exp_description="";
+     */
+    private String exp_organization = "";
+    private String exp_designation = "";
+    private String exp_from_time = "";
+    private String exp_to_time = "";
+    private String exp_role = "";
 
 
 
     /**
-     * Education
+     * Project Detail
      * */
+    private String project_title;
+    private String project_description;
+    private String project_duration;
+    private String project_role;
 
-    private String master_degree_marks="";
-   // private String hsc_school_name="";
-    private String hsc_passing_time="";
-
-
-
- /**
-  * Project Detail
-  * */
 
     /**
      * Technical Skills
      * */
+    private String skill;
 
     /**
      * Interests,Strength,& Hobby
      * */
 
+    private String interests;
+
     /**
      * Industrial Exposure
      * */
 
-
+    private String industrial_expoure;
 
     /**
      * Achievements & Awards
      * */
 
+    private String achievements_and_awards;
 
     /**
      * Activities
-     * */
+     */
+
+    private String activity;
 
     /**
      * Reference
-     * */
+     */
 
     private String refetrnce_name;
     private String refetrnce_designation;
@@ -82,7 +90,7 @@ public class UserData {
 
     /**
      * Objective,Declaration,Date
-     * */
+     */
 
 
     private String objective;
@@ -91,30 +99,29 @@ public class UserData {
     private String objective_declaration;
 
 
-
     /**
      * Photo & Signature
-     * */
+     */
 
     private String photo;
     private String signature;  //also we add signature using canvas
 
     /**
      * HSC
-     * */
+     */
 
-    private String hsc_marks="";
-    private String hsc_school_name="";
-    private String hsc_passing_year="";
+    private String hsc_marks = "";
+    private String hsc_school_name = "";
+    private String hsc_passing_year = "";
 
 
     /**
      * SSC
-     * */
+     */
 
-    private String ssc_marks="";
-    private String ssc_school_name="";
-    private String ssc_passing_time="";
+    private String ssc_marks = "";
+    private String ssc_school_name = "";
+    private String ssc_passing_time = "";
 
 
 }
