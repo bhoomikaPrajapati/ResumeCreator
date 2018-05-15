@@ -1,4 +1,4 @@
-package com.resumecreator;
+package com.resumecreator.activity;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.itextpdf.text.pdf.BaseFont;
+import com.resumecreator.R;
+import com.resumecreator.formates.SimpleResumeFormat1;
 
 import java.io.File;
 
@@ -36,7 +38,7 @@ public class MainActivity extends Activity {
         // TODO Auto-generated method stub
         filename = "bhoomika";
         String filecontent = "prajapati";
-        Metodos fop = new Metodos();
+        SimpleResumeFormat1 fop = new SimpleResumeFormat1();
 
 
         if (fop.write(filename, filecontent)) {

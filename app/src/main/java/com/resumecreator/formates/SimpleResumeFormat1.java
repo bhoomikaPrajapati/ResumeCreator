@@ -1,4 +1,5 @@
-package com.resumecreator;
+package com.resumecreator.formates;
+
 
 import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Chunk;
@@ -10,12 +11,14 @@ import com.itextpdf.text.Phrase;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
+import com.resumecreator.customeview.CustomDashedLineSeparator;
+
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class Metodos {
+public class SimpleResumeFormat1 {
 
 
     public Boolean write(String fname, String fcontent) {

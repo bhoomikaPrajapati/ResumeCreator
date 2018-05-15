@@ -1,9 +1,9 @@
-package com.resumecreator;
+package com.resumecreator.customeview;
 
 import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.draw.DottedLineSeparator;
 
-class CustomDashedLineSeparator extends DottedLineSeparator {
+public class CustomDashedLineSeparator extends DottedLineSeparator {
     protected float dash = 5;
     protected float phase = 2.5f;
  

@@ -1,4 +1,4 @@
-package com.resumecreator;
+package com.resumecreator.model;
 
 /**
  * Created by inx-android on 27/4/18.
