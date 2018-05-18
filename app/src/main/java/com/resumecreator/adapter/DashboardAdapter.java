@@ -33,6 +33,9 @@ public class DashboardAdapter extends BaseRecyclerAdapter<DashboardAdapter.DataV
         return new DashboardAdapter.DataViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_dashboard, parent, false));
     }
 
+
+
+
     @Override
     public void onBindViewHolder(DashboardAdapter.DataViewHolder holder, int position) {
         String text = mListOfOption.get(position);
@@ -50,6 +53,7 @@ public class DashboardAdapter extends BaseRecyclerAdapter<DashboardAdapter.DataV
 
         public DataViewHolder(View itemView) {
             super(itemView);
+            clickableViews(tvListOfOption);
 
         }
     }
