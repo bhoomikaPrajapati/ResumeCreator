@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- inset is used to remove border from top, it can remove border from any other side-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rectangle">
+    <corners android:radius="@dimen/_5sdp" />
+
+    <gradient
+        android:angle="45"
+        android:centerColor="#3eb9a3"
+        android:endColor="#99e773"
+        android:startColor="#99e773"></gradient>
+
+</shape>
+

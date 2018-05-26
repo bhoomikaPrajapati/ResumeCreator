@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
     android:background="@drawable/app_backgroud"
-    android:layout_height="match_parent">
+    android:orientation="vertical">
 
 
-        <TextView
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/rvMenu"
-            android:layout_width="match_parent"
-            android:overScrollMode="never"
-            android:scrollbars="none"
-            android:layout_height="match_parent" />
+    <TextView
+        android:textColor="@color/white"
+        style="@style/FontMedium"
+        android:textSize="@dimen/_20sdp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:text="Resume Creater"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp" />
 
 
-
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
 
 
 </LinearLayout>

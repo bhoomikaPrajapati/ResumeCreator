@@ -1,15 +1,15 @@
 package com.resumecreator.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.resumecreator.R;
 import com.resumecreator.adapter.DashboardAdapter;
+import com.resumecreator.baseclass.BaseActivity;
 import com.resumecreator.baseclass.BaseRecyclerAdapter;
 
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class DashboardActivity extends AppCompatActivity {
+public class DashboardActivity extends BaseActivity {
 
 
     @BindView(R.id.rvMenu)
@@ -57,7 +57,10 @@ public class DashboardActivity extends AppCompatActivity {
     private BaseRecyclerAdapter.RecycleOnItemClickListener mRecycleOnItemClickListener = new BaseRecyclerAdapter.RecycleOnItemClickListener() {
         @Override
         public void onItemClick(View view, int position) {
-
+                if(mListOfOption.get(position).equalsIgnoreCase("Create resume"))
+                {
+                    startActivity(new Intent(DashboardActivity.this,UserDataActivity.class));
+                }
         }
     };
 

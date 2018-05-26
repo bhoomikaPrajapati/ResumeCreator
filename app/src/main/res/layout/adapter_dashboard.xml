@@ -3,21 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/_90sdp"
+    android:layout_height="@dimen/_70sdp"
     app:cardBackgroundColor="@color/whiteT"
     app:cardCornerRadius="@dimen/_2sdp"
     android:layout_margin="@dimen/_2sdp"
     app:cardUseCompatPadding="true">
 
     <TextView
+        style="@style/FontMedium"
         android:id="@+id/tvListOfOption"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
         android:textColor="@color/white"
-        android:textSize="@dimen/_22sdp"
-        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
         tools:text="Create Resume" />
 
 </android.support.v7.widget.CardView>

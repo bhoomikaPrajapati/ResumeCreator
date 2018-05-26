@@ -26,7 +26,7 @@ public class BaseApplication extends Application {
     }
 
     private void setFont() {
-        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder().setDefaultFontPath("fonts/ubuntu_regular.ttf").setFontAttrId(R.attr.fontPath).build());
+        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder().setDefaultFontPath("fonts/sansation_regular.ttf").setFontAttrId(R.attr.fontPath).build());
 
     }
 
